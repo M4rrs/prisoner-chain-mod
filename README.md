@@ -7,3 +7,5 @@ Second, I have zero Java coding experience. None. And I see a lot of modding adv
 With that in mind, I cannot guarantee that any of the code will be the most optimised. Nor do I even know if I will actually succeed in creating this mod.
 
 The purpose of this mod is to fulfill my evil minecraft desires. That is all I will say.
+
+The Fabric mod template I used can be found [here](https://github.com/FabricMC/fabric-example-mod)
