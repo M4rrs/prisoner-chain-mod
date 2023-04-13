@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "prisonerchain",
+  "version": "0.0.1",
+
+  "name": "Mars' Prisoner Chain",
+  "description": "Leash up to 5 prisoners (villagers) at a time",
+  "authors": [
+    "M4rrs"
+  ],
+  "contact": {
+    "homepage": "https://github.com/M4rrs",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "assets/prisonerchain/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "M4rrs.prisoner.chain.PrisonerChain"
+    ]
+  },
+  "mixins": [
+    "prisonerchain.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
