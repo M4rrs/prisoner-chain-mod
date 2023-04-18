@@ -4,6 +4,7 @@ import M4rrs.prisoner.chain.PrisonerChain;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -31,5 +32,6 @@ public class ModItems {
 
 	public static void registerModItems() {
 		PrisonerChain.LOGGER.info("Registering Mod Item " + PrisonerChain.MOD_ID);
+		addItemsToItemGroup();
 	}
 }
