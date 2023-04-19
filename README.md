@@ -9,16 +9,3 @@ With that in mind, I cannot guarantee that any of the code will be the most opti
 The purpose of this mod is to fulfill my evil minecraft desires. That is all I will say.
 
 The Fabric mod template I used can be found [here](https://github.com/FabricMC/fabric-example-mod)
-
-## Funny haha issues that I dealt with
-
-* I had to reinstall JDK three times.
-	* First JDK20 because I don't have JDK on my computer.
-	* Second because gradle isn't compatible with JDK20.
-	* Third because LWJGL said haha no no to JDK19.
-	* So we stick to JDK17 :smiling_face_with_tear::ok_hand:
-
-* Mod wasn't appearing in item group.
-	* But item is suggested if I run ```/give``` ??
-	* Item texture is loaded properly??
-	* Hours later I realise I never actually called my ```addItemtoGroup()``` 
